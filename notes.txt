@@ -1,0 +1,18 @@
+// No need to return vector/array when passing by reference --> Can use void function instead
+^ --> XOR --> Same bit eliminator
+n ^ n = 0
+n ^ 0 = n
+(Can help to find odd-one-out)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+#include <algorithm>
+std::max<int>(5, count(str.begin(), str.end(), ch));
+          ^ 
+          specify type
+    (5 is int, while std::count() returns something else(?))
+                                                         ^
+                                            std::iterator_traits<>::difference_type, which is suitable for representing "distances" between two iterators
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
